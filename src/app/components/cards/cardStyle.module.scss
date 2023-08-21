@@ -1,0 +1,48 @@
+.card {
+    display: grid;
+    place-items: center;
+    max-width: 400px;
+    width: 100%;
+    
+    padding: 30px 40px;
+
+    border-radius: 8px;
+    border: 1px solid #E7E6EB;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.image {
+    max-width: 258px;
+    width: 100%;
+    height: 100%;
+}
+
+.btnWrap {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 1em 0 2em 0;
+}
+
+.btnColumnWrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link {
+    width: 100%;
+    margin-top: 2em;
+    text-decoration: underline;
+    text-align: start;
+    color: #61A5FA;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media (max-width: 380px) {
+
+}
